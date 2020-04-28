@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/voz_a_texto.iml" filepath="$PROJECT_DIR$/voz_a_texto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/voz_a_texto_android.iml" filepath="$PROJECT_DIR$/android/voz_a_texto_android.iml" />
+    </modules>
+  </component>
+</project>

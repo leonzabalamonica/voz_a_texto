@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.voz_a_texto"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:10:9-70
+14-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:10:26-68
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:9:9-74
+22-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:9:26-72
+23
+24    <application
+24-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:14:5-35:19
+25        android:name="io.flutter.app.FlutterApplication"
+25-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:15:9-57
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.0.0] C:\Users\fbasc\.gradle\caches\transforms-2\files-2.1\0a271e99b6771ad4a84318244d532fb7\core-1.0.0\AndroidManifest.xml:22:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:17:9-43
+29        android:label="voz_a_texto" >
+29-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:16:9-36
+30        <activity
+30-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:18:9-29:20
+31            android:name="com.example.voz_a_texto.MainActivity"
+31-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:19:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:22:13-163
+33            android:hardwareAccelerated="true"
+33-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:23:13-47
+34            android:launchMode="singleTop"
+34-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:20:13-43
+35            android:theme="@style/LaunchTheme"
+35-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:21:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:24:13-55
+37            <intent-filter>
+37-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:25:13-28:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:26:17-68
+38-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:26:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:27:17-76
+40-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:27:27-74
+41            </intent-filter>
+42        </activity>
+43        <!--
+44             Don't delete the meta-data below.
+45             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+46        -->
+47        <meta-data
+47-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:32:9-34:33
+48            android:name="flutterEmbedding"
+48-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:33:13-44
+49            android:value="2" />
+49-->C:\Users\fbasc\Desktop\voz_a_texto\android\app\src\main\AndroidManifest.xml:34:13-30
+50    </application>
+51
+52</manifest>
