@@ -59,7 +59,7 @@ class _TextoAVozState extends State<TextoAVoz> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Speech to Text Example'),
+          title: const Text('voz a texto'),
         ),
         body: Column(children: [
           Center(
@@ -75,7 +75,7 @@ class _TextoAVozState extends State<TextoAVoz> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
                     FlatButton(
-                      child: Text('Inicializar'),
+                      child: Text('comenzar'),
                       onPressed: _hasSpeech ? null : initSpeechState,
                     ),
 
