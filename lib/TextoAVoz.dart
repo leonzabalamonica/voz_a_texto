@@ -64,7 +64,7 @@ class _TextoAVozState extends State<TextoAVoz> {
         body: Column(children: [
           Center(
             child: Text(
-              'voz a tex',
+              'Speech recognition available',
               style: TextStyle(fontSize: 22.0),
             ),
           ),
